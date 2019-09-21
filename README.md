@@ -1,20 +1,27 @@
-# FileTrans
+File Transer Demo [Carrier]
+============================
 
-## Introduction
+This is the repository of app demo to show or verify that the feature of file transfer work correctly or not for Carrier Android Java SDK.
 
-**FileTrans** is an application to demonstrate the feature of file transferring.  The main purpose of this repository to show how to use file-transfer APIs as well as to make verification when new version of carrier sdk is released.
+## Build & Install
 
-## Build from source
+Run the following commands to build app:
 
-Run the following commands to build the project from scratch on MacOS:
-```
-$ git clone https://github.com/elastos/Elastos.NET.Carrier.Demo.FileTransfer.Android FileTrans
-$ cd FileTrans
+```shell
+$ git clone https://github.com/stiartsly/android-carrier-filetransfer.git filetrans
+$ cd filetrans
 $ open -a "Android Studio".app .
 ```
-After opening the project with **Android Studio IDE**,   then select **Build** menu and click **Make project** to build the whole project.
 
-### 5. License
+After opening this android project with **Android Studio IDE**,  then build and install this app into your device or simulator.
+
+## References of Carrier SDKs
+
+Here is the list of repositories of Carrier SDKs you might be interested in:
+
+- [Elastos.NET.Carrier.Native.SDK](https://github.com/elastos/Elastos.NET.Carrier.Native.SDK.git)
+- [Elastos.NET.Carrier.Android.SDK](https://github.com/elastos/Elastos.NET.Carrier.Android.SDK.git)
+
+## License
+
 MIT @Elastos Foundation
-
-
